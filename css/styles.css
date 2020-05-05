@@ -1,0 +1,77 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    color: white;
+    top: 0;
+    text-align: center;
+    padding: 20px;
+    /* padding: 50px 50% 50px 50%; */
+    border: 1px solid rgb(212, 194, 194);
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    padding: 20px 30% 20px 40%;
+    border: 1px solid rgb(212, 194, 194);
+}
+
+.leftmenu{
+    width: 20%;
+    height: 90vh;
+    background-color: rgb(60, 87, 117);
+    float: left;
+    border: 1px solid rgb(212, 194, 194);
+    
+}
+
+.body{
+    width: 80%;
+    height: auto;
+    background-color: rgb(175, 190, 106);
+    background: linear-gradient(#e66465, #9198e5);
+    float: right;
+    border: 1px solid rgb(212, 194, 194);
+    margin: 20;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    /* position: relative; */
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+  .textcenter {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+div.body img {
+    background: linear-gradient(#e66465, #9198e5);
+    border: 1px solid black;
+    height: auto;
+    width: 100%;
+    background: url(sparrow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
